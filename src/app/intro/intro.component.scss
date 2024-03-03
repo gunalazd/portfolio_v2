@@ -1,0 +1,20 @@
+.angular-title-wrapper{
+    display: flex;
+    height: 75px;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 74vh;
+}
+
+.burger-title{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(148, 163, 184);;
+    &.active{
+        color: white;
+    }
+}

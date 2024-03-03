@@ -1,0 +1,19 @@
+<span class="section-title"> Education & Courses </span>
+
+@for (ed of education; track $index) {
+  <div class="exp-wrapper ed">
+    <div class="left-column">
+      <img [src]="'assets/thumbnail/' + ed.logo + '.png'" alt="logo" width="150">
+    </div>
+    <div class="right-column">
+      <div class="m-title" >{{ed.year}}</div>
+      <div class="l-title">{{ed.name}}</div>
+      <div class="ed_url"><a
+      class="m-title ml-1r"
+      [attr.href]="ed.ref"
+      target="_blank"
+    >{{ ed.subtype }}
+    </a></div>
+    </div>
+  </div>
+}

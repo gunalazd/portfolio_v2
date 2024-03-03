@@ -1,0 +1,24 @@
+<span class="section-title"> Work Experience </span>
+
+@for (item of experiences; track $index) {
+  <div class="exp-wrapper">
+    <div class="left-column">
+      <span class="m-title" >{{item.date}}</span>
+      <div class="m-title op-50">{{item.location}}</div>
+    </div>
+    <div class="right-column">
+      <span class="l-title"  [ngClass]="{'fancy':item.role === 'dev'}">{{item.name}}</span>
+      <span class="l-title op-50"> - {{item.place}}</span>
+      <div class="m-title relaxed mt-1r">
+      @for (duty of item.duties; track $index) {
+        <div>{{duty}}</div>
+      }
+      </div>
+      <div class="m-title bubbles" aria-label="Technologies used">
+        @for (tech of item.tech; track $index) {
+          <span class="bubble">{{tech}}</span>
+        }
+      </div>
+    </div>
+  </div>
+}

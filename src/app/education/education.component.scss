@@ -1,0 +1,27 @@
+.ed{
+    padding: 1.5rem 1rem;
+
+    & .left-column{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & .right-column{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .ed_url{
+            display: flex;
+            & a{
+                margin: 0;
+            }
+        }
+
+        & .l-title{
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}

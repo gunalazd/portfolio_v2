@@ -1,0 +1,105 @@
+[
+  {
+    "name" : "Frontend Engineer",
+    "place" : "Brite",
+    "industry" : "Fintech",
+    "date" : "Nov 2022 – current",
+    "location" : "Spain",
+    "ref" : "https://britepayments.com",
+    "duties" : [
+      "Work in an environment with complex software architecture",
+      "Front-End development with Angular and Typescript",
+      "Write Unit tests with Jasmine, Karma and Cypress",
+      "Delivering changes to production using Bamboo CI/CD pipelines",
+      "Some Back-End tasks in Java with REST API Endpoint implementation",
+      "Participation in the code review process"
+    ],
+    "role" : "dev",
+    "tech" : ["Angular", "HTML & CSS", "TypeScript", "JavaScript", "Figma"]
+  },
+  {
+    "name" : "Frontend Engineer",
+    "place" : "The Workshop",
+    "industry" : "Online Gambling",
+    "date" : "Jan 2020 – Nov 2021",
+    "location" : "Spain",
+    "ref" : "https://theworkshop.com",
+    "duties" : [
+      "Work in an environment with complex software architecture",
+      "Front-End development with Angular and Typescript",
+      "Write Unit tests with Jasmine, Karma and Cypress",
+      "Delivering changes to production using Bamboo CI/CD pipelines",
+      "Some Back-End tasks in Java with REST API Endpoint implementation",
+      "Participation in the code review process"
+    ],
+    "role" : "dev",
+    "tech" : ["Angular", "HTML & CSS", "TypeScript", "JavaScript", "Java"]
+  },
+  {
+    "name" : "QA Engineer",
+    "place" : "The Workshop",
+    "industry" : "Online Gambling",
+    "date" : "Jun 2018 – Jan 2020",
+    "location" : "Spain",
+    "ref" : "https://theworkshop.com",
+    "duties" : [
+      "Test Automation using Selenium Web driver and Cypress.io",
+      "Analyse requirements and develop Test Cases for new user stories",
+      "Work in the agile development environment",
+      "Test planning for new features"
+    ],
+    "role" : "qa",
+    "tech" : ["Cypress.io", "Selenium", "JavaScript"]
+  },
+  {
+    "name" : "Software Test Specialist",
+    "place" : "Tele2 Latvia",
+    "industry" : "Telecommunications",
+    "date" : "Oct 2015 – Jan 2018",
+    "location" : "Latvia",
+    "ref" : "https:///www.tele2.lv",
+    "duties" : [
+      "Run automated tests on integrated Siebel CRM system",
+      "Work in the agile development environment",
+      "Analyse requirements and develop Test Cases for new user stories",
+      "Development of scripts for internal automation framework",
+      "Use Oracle DBS to prepare or modify test data",
+      "Performance and load tests on the billing system"
+    ],
+    "role" : "qa",
+    "tech" : ["Cypress.io", "Selenium", "JavaScript", "Siebel CRM", "Oracle DBS"]
+  },
+  {
+    "name" : "Software Test Specialist",
+    "place" : "SOAAR",
+    "industry" : "Comercial Software development",
+    "date" : "Sep 2013 – Oct 2015",
+    "location" : "Latvia",
+    "ref" : "https:///www.soaar.lv",
+    "duties" : [
+      "Software testing",
+      "Solution/Services testing",
+      "User scenario management",
+      "Web Application test automation",
+      "Selenium Web driver tests development in Java"
+    ],
+    "role" : "qa",
+    "tech" : ["Cypress.io", "Selenium", "Java"]
+  },
+  {
+    "name" : "IT Specialist",
+    "place" : "Riga Business School",
+    "industry" : "Education",
+    "date" : "Jan 2012 – Aug 2013",
+    "location" : "Latvia",
+    "ref" : "https:///www.rbs.lv",
+    "duties" : [
+      "IT equipment repair",
+      "IT / office equipment maintenance",
+      "IT equipment assembling and setup",
+      "Lecture capture application administration",
+      "IT support for corporate events"
+    ],
+    "role" : "is"
+  }
+]

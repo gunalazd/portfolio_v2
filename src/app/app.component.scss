@@ -1,0 +1,28 @@
+.main{
+    justify-content: center;
+    gap: 4rem;
+    display: flex;
+}
+
+.left-sticky {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    max-width: 370px;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
+
+.content-wrapper{
+    display: flex;
+    gap: 9rem;
+    flex-direction: column;
+    overflow-y: auto;
+    max-width: 740px;
+    flex: 2;
+    overflow-y: auto;
+    height: 100vh;
+    scroll-behavior: smooth;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+}
