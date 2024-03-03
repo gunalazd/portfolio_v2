@@ -1,28 +1,37 @@
-.main{
+.main {
     justify-content: center;
-    gap: 4rem;
+    gap: 10rem;
     display: flex;
 }
 
 .left-sticky {
-    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vh;
+    max-height: 80vh;
+    justify-content: center;
     flex-direction: column;
+    display: flex;
+    top: 0;
     position: sticky;
-    max-width: 370px;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
 }
 
-.content-wrapper{
+.content-wrapper {
     display: flex;
-    gap: 9rem;
+    gap: 10rem;
     flex-direction: column;
     overflow-y: auto;
     max-width: 740px;
-    flex: 2;
-    overflow-y: auto;
-    height: 100vh;
-    scroll-behavior: smooth;
-    padding-top: 10rem;
-    padding-bottom: 6rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    max-height: 80vh;
+}
+
+
+.right-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }

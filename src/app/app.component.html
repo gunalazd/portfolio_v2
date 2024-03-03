@@ -1,13 +1,16 @@
-<div class="main">
-<div class="left-sticky">
-  <app-intro></app-intro>
+<div class="wrapper">
+  <div class="main">
+    <div class="left-sticky">
+      <app-intro></app-intro>
+    </div>
+    <div class="right-wrapper">
+      <app-about id="about" class="mb-6rem"></app-about>
+      <app-work id="work"></app-work>
+      <app-portf id="portf"></app-portf>
+      <app-education id="ed"></app-education>
+      <app-outro></app-outro>
+    </div>
+  </div>
 </div>
-<div class="content-wrapper row-spacing">
-  <app-about id="about"></app-about>
-  <app-work id="work"></app-work>
-  <app-portf id="portf"></app-portf>
-  <app-education id="ed"></app-education>
-  <app-outro></app-outro>
-</div>  
-</div>
+
 <router-outlet />

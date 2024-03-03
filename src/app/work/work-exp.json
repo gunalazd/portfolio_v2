@@ -7,11 +7,11 @@
     "location" : "Spain",
     "ref" : "https://britepayments.com",
     "duties" : [
-      "Work in an environment with complex software architecture",
+      "Translating designs and wireframes into code",
       "Front-End development with Angular and Typescript",
       "Write Unit tests with Jasmine, Karma and Cypress",
-      "Delivering changes to production using Bamboo CI/CD pipelines",
-      "Some Back-End tasks in Java with REST API Endpoint implementation",
+      "Upgrade of old Angular Projects to the latest Angular version",
+      "Managing content for corporate website and UI for internal tools",
       "Participation in the code review process"
     ],
     "role" : "dev",

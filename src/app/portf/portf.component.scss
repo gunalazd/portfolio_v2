@@ -1,0 +1,36 @@
+.port-wrapper {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    max-width: 740px;
+    transition: all ease-in-out 200ms;
+    border: 1px solid rgb(26, 39, 68);
+    background-color: rgb(19, 28, 51);
+
+    & .left-column {
+        flex: 2;
+        min-width: 180px;
+    }
+
+    & .right-column {
+        flex: 7;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+img {
+    border-radius: 8px;
+    border: 2px solid transparent;
+}
+
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 200ms;
+}

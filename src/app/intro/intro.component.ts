@@ -1,5 +1,5 @@
-import { Component, EventEmitter, Output } from '@angular/core';
-import { AppService } from '../app.service';
+import { Component } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-intro',
@@ -9,5 +9,11 @@ import { AppService } from '../app.service';
   styleUrl: './intro.component.scss'
 })
 export class IntroComponent {
+  constructor(
+    private viewportScroller: ViewportScroller,
+  ) { }
 
+  toTop() {
+    this.viewportScroller.scrollToPosition([0, 0]);
+  }
 }
