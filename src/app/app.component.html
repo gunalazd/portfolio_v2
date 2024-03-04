@@ -4,11 +4,21 @@
       <app-intro></app-intro>
     </div>
     <div class="right-wrapper">
-      <app-about id="about" class="mb-6rem"></app-about>
-      <app-work id="work"></app-work>
-      <app-portf id="portf"></app-portf>
-      <app-education id="ed"></app-education>
-      <app-outro></app-outro>
+      <app-about id="about" inViewport
+      [inViewportOptions]="{ threshold: [0] }"
+      (inViewportAction)="onIntersection($event)"></app-about>
+      <app-work id="work" inViewport
+      [inViewportOptions]="{ threshold: [0] }"
+      (inViewportAction)="onIntersection($event)"></app-work>
+      <app-portf id="portf" inViewport
+      [inViewportOptions]="{ threshold: [0] }"
+      (inViewportAction)="onIntersection($event)"></app-portf>
+      <app-education id="ed" inViewport
+      [inViewportOptions]="{ threshold: [0] }"
+      (inViewportAction)="onIntersection($event)"></app-education>
+      <app-outro id="outro" inViewport
+      [inViewportOptions]="{ threshold: [0] }"
+      (inViewportAction)="onIntersection($event)"></app-outro>
     </div>
   </div>
 </div>

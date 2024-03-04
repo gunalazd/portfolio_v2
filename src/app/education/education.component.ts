@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { AppService } from '../app.service';
+import { Component, Renderer2 } from '@angular/core';
+import { InViewportModule } from 'ng-in-viewport';
 
 const ed = [
   {
@@ -35,10 +35,17 @@ const ed = [
 @Component({
   selector: 'app-education',
   standalone: true,
-  imports: [],
+  imports: [InViewportModule],
   templateUrl: './education.component.html',
   styleUrl: './education.component.scss'
 })
 export class EducationComponent {
   education = ed;
+
+  constructor(private renderer: Renderer2) {}
+
+  public onIntersection({ target, visible }: { target: Element; visible: boolean }): void {
+    this.renderer.addClass(target, visible ? 'active' : 'inactive');
+    this.renderer.removeClass(target, visible ? 'inactive' : 'active');
+}
 }

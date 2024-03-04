@@ -1,7 +1,9 @@
 <div class="section-title"> Education & Courses </div>
 
 @for (ed of education; track $index) {
-<div class="exp-wrapper ed">
+<div class="exp-wrapper ed" inViewport
+[inViewportOptions]="{ threshold: [0] }"
+(inViewportAction)="onIntersection($event)">
   <div class="left-column">
     <img [src]="'assets/thumbnail/' + ed.logo + '.png'" alt="logo" width="150">
   </div>

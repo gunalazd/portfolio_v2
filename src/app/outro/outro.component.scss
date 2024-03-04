@@ -1,4 +1,15 @@
 .outro{
     max-width: 740px;
     margin-top: 12px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.16;
+    margin-bottom: 16px;
+    color: #99a5b7;
+
+    & a{
+        color: rgb(94, 234, 212);
+        text-decoration: none;
+        font-weight: 600;
+    }
 }

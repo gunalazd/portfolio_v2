@@ -1,14 +1,20 @@
-.bubbles{
-    margin-top: 5px;
-    flex-wrap: wrap;
-    display: flex;
+.exp-wrapper.active {
+    animation: flash-card 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+  & .right-column {
+	-webkit-animation: slide-left 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+	        animation: slide-left 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+            & >.l-title{
+                -webkit-animation: slide-left 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+                animation: slide-left 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
 }
 
-.bubble {
-    padding: 6px 12px;
-    border-radius: 18px;
-    margin: 10px 10px 0 0;
-    font-weight: 500;
-    color: rgb(94 234 212);
-    background-color: rgba(45, 212, 191, .1);
+& .left-column {
+	-webkit-animation: slide-right 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+	        animation: slide-right 1.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}  
+& .bubble{
+    -webkit-animation: slide-left 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: slide-left 1.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 }

@@ -1,7 +1,12 @@
-<span class="section-title"> Work Experience </span>
+<div class="section-title"> Work Experience </div>
 
 @for (item of experiences; track $index) {
-  <div class="exp-wrapper">
+  <div 
+  class="exp-wrapper"       
+  inViewport
+  [inViewportOptions]="{ threshold: [0] }"
+  (inViewportAction)="onIntersection($event)"
+  >
     <div class="left-column">
       <span class="m-title" >{{item.date}}</span>
       <div class="m-title op-50">{{item.location}}</div>
